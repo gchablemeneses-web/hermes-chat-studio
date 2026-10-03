@@ -37,4 +37,6 @@ conversations and account information.
 Native checks were performed on Windows and Hermes 0.21.5. Other operating
 systems, every screen size, and future transcript markup are not covered by
 this native check. The automated SDK adapters do not prove future host
-compatibility. The SDK intentionally gives the plugin no network or model work.
+compatibility. This plugin makes no network or model calls. Hermes's Desktop
+loader isolates errors, not capabilities; SDK-only code is not a security sandbox.
+
