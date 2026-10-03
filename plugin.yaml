@@ -1,0 +1,10 @@
+name: chat-studio
+version: "1.1.0"
+description: "Offline conversation customization with one-click presets and plugin-owned settings."
+author: gchablemeneses-web
+license: MIT
+requires_hermes: ">=0.21.5"
+provides_tools: []
+provides_hooks: []
+provides_middleware: []
+requires_env: []
